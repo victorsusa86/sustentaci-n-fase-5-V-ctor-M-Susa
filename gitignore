@@ -1,0 +1,14 @@
+# Datos descargados (son grandes y se pueden volver a descargar)
+*.csv
+*.parquet
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archivos de Spark y Kafka
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
